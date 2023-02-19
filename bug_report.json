@@ -1,1 +1,16 @@
-
+{
+    "id":"1",
+    "Summary":"The <Menu> word in the [Burger menu] is not translated into Czech",
+    "Priority":"Low",
+    "Severity":"Minor",
+    "Environment":"MacOs Ventura 13.2 Safari 16.3",
+    "Steps to reproduce":[
+                          "1. Navigate to *****.com",
+                          "2. Click button [Language]",
+                          "3. Select Czech language (Čeština)",
+                         ],
+    
+    "Actual result": "The word <Menu> is not translated to Czech language",
+    "Expected result": "The word <Menu> is translated to Czech language",
+    "Attachment": "link"
+}
