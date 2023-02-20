@@ -14,7 +14,7 @@
 |Создать файл preferences.json| `touch preferences.json` |
 |В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON | `cat >> preferences.json` -> внести необходимую информацию -> `enter` -> `ctr+C` |
 |Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON | `cat > skills.json` -> внести необходимую информацию -> `enter` -> `ctr+C` |
-|Отправить сразу 2 файла на внешний репозиторий | `git status` `git add preferences.json skills.json` `git commit -m "add files"`|
+|Отправить сразу 2 файла на внешний репозиторий | `git status` `git add preferences.json skills.json` `git commit -m "add files"`| `git push` |
 |На веб интерфейсе создать файл bug_report.json | `Add file` -> `create new file` -> ввести название bug_report.json |
 |Сделать Commit changes (сохранить) изменения на веб интерфейсе | `Commit new file` |
 |На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON | нажать на кнопку `Edit file` -> отредактировать
